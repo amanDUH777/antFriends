@@ -1,0 +1,15 @@
+.img-row{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    max-width: 1600px;
+    width: 100%;
+}
+.img-column{
+    flex: 33.3%;
+    padding: 2px;
+}
+.todo-img{
+    width: 100%;
+}
+

@@ -1,0 +1,176 @@
+body {
+  background-color: #333333;
+}
+
+.form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 4vh;
+}
+
+.main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #009999;
+  text-shadow: 2px 2px 4px #000000;
+  letter-spacing: 5px;
+  font-family: "Segoe Print", "Times New Roman";
+  font-size: 40px;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 5%;
+}
+
+.modal-content {
+  background-color: #333333;
+  margin: 5% auto 15% auto;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: #EFC050;
+  cursor: pointer;
+}
+
+.atag {
+  text-decoration: none;
+  color: white;
+}
+
+.userInputs {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #009999;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-modal {
+  padding: 10px;
+}
+
+.loginBtn {
+  padding: 5px 25px;
+  margin-bottom: 3px;
+  font-size: 2vh;
+  cursor: -webkit-grab;
+  cursor: grab;
+  color: white;
+  background-color: #EFC050;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.cancelbtn {
+  padding: 5px 25px;
+  font-size: 2vh;
+  cursor: -webkit-grab;
+  cursor: grab;
+  color: white;
+  background-color: #e52626;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.img-container {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.modalDefaultImg {
+  width: 20%;
+  border-radius: 10%;
+}
+
+.container-form {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+          animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .main-title {
+    font-size: 30px;
+    letter-spacing: normal;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,102 @@
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.column {
+    padding: 5px;
+}
+
+.img-home {
+    width: 100%;
+}
+
+.team-msg{
+    text-align: center;
+    color: #EFC050;
+}
+
+.user1 {
+
+    filter: drop-shadow(2px 4px 5px #009999) contrast(128%);
+}
+
+.user2 {
+    filter: drop-shadow(2px 4px 5px #EFC050) contrast(128%);
+}
+
+.user3 {
+    filter: drop-shadow(2px 4px 5px #009999) contrast(128%);
+}
+
+.user4 {
+    filter: drop-shadow(2px 4px 5px #EFC050) contrast(128%);
+}
+
+.user5 {
+    filter: drop-shadow(2px 4px 5px #009999) contrast(128%);
+}
+
+.user6 {
+    filter: drop-shadow(2px 4px 5px #EFC050) contrast(128%);
+}
+
+.user7 {
+    filter: drop-shadow(2px 4px 5px #009999) contrast(128%);
+}
+
+.user8 {
+    filter: drop-shadow(2px 4px 5px #EFC050) contrast(128%);
+}
+
+
+/* modal to message team or users showcased on home page */
+
+.emailInputs {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.closeBtn2 {
+    position: absolute;
+    right: 25%;
+    top: 17%;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.closeBtn2:hover{
+    cursor: pointer;
+    color: #EFC050 ;
+}
+
+.sendBtn{
+    padding: 5px 25px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    cursor: grab;
+    background-color: #EFC050;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.email-modal {
+    padding: 10px;
+    margin: 5% auto;
+    border: 1px solid #009999;
+    width: 50%;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn {
+        width: 100%;
+    }
+}

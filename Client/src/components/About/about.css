@@ -1,0 +1,29 @@
+.about-company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid #333333;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    color: #f5f5f5da;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 500;
+    font-family: 'Bahnschrift Light', 'Courier';
+    font-size: 20px;
+
+}
+.company-info {
+    width: 100%;
+    background-color: #333333;
+    color: #009999;
+    position: fixed;
+    bottom: 0vh;
+
+}
+
+@media screen and (max-width: 491px) {
+    .company-info {
+        display: none;
+    }
+}
